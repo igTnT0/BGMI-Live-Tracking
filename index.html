@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BGMI Overlay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-center">
+    <div class="overlay-wrap">
+
+      <div class="ranking-panel">
+        <div class="ranking-header">
+          <div>#</div>
+          <div>TEAM</div>
+          <div>KILLS</div>
+          <div>TOT. PTS.</div>
+          <div>STATUS</div>
+        </div>
+
+        <div id="board" class="board"></div>
+
+        <div class="bottom-legend">
+          <span><i class="legend-alive"></i> ALIVE</span>
+          <span><i class="legend-knocked"></i> KNOCKED</span>
+          <span><i class="legend-dead"></i> ELIMINATED</span>
+        </div>
+      </div>
+
+      <div class="feed-panel">
+        <div id="killFeed" class="kill-feed"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
